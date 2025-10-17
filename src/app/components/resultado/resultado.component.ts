@@ -3,9 +3,10 @@ import { ActivatedRoute } from '@angular/router';
 import { MediaService } from '../../services/media.service';
 
 @Component({
-  selector: 'app-resultado',
-  templateUrl: './resultado.component.html',
-  styleUrls: ['./resultado.component.css']
+    selector: 'app-resultado',
+    templateUrl: './resultado.component.html',
+    styleUrls: ['./resultado.component.css'],
+    standalone: false
 })
 export class ResultadoComponent implements OnInit {
   media: number = 0;

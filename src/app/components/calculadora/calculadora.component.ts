@@ -3,9 +3,10 @@ import { Router } from '@angular/router';
 import { MediaService } from '../../services/media.service';
 
 @Component({
-  selector: 'app-calculadora',
-  templateUrl: './calculadora.component.html',
-  styleUrls: ['./calculadora.component.css']
+    selector: 'app-calculadora',
+    templateUrl: './calculadora.component.html',
+    styleUrls: ['./calculadora.component.css'],
+    standalone: false
 })
 export class CalculadoraComponent implements AfterViewInit {
   @Input() nota1: number | null = null;
